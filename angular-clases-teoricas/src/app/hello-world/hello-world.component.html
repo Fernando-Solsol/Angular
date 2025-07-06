@@ -2,3 +2,7 @@
 <h2>Formulario Dinámico</h2>
 <input [(ngModel)]="nombre" placeholder="Tu nombre">
 <p>Hola, {{ nombre }}</p>
+
+<ul>
+  <li *ngFor="let post of posts">{{ post.title }}</li>
+</ul>
