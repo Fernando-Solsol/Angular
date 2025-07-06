@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HelloWorldComponent {
   mensaje = '¡Hola UNSA desde Angular 20!';
+  nombre: string = '';
 }
-nombre: string = '';
