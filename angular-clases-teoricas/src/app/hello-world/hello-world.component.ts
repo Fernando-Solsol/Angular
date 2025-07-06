@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./hello-world.component.css']
 })
 export class HelloWorldComponent {
-
+  mensaje = '¡Hola UNSA desde Angular 20!';
 }
+nombre: string = '';
